@@ -1,0 +1,21 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python manage.py migrate && gunicorn documind.wsgi --log-file -"
+```
+
+---
+
+## 🗂️ Your final structure should look like:
+```
+Documind/
+├── core/
+├── documind/
+├── frontend/
+├── manage.py
+├── requirements.txt
+├── Procfile
+├── runtime.txt
+├── railway.toml
+└── .env

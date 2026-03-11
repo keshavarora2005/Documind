@@ -1,0 +1,25 @@
+# Environment
+.env
+
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# FAISS
+faiss_index/
+
+# OS
+.DS_Store
+Thumbs.db
