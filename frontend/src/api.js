@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE = "http://127.0.0.1:8000/api";
+const BASE = "https://documind-2-8fz2.onrender.com/api";
 
 export const signupUser      = (name, email, password) =>
   axios.post(`${BASE}/auth/signup/`, { name, email, password });
